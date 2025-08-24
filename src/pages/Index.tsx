@@ -67,7 +67,6 @@ const Index = () => {
         {/* Villages Grid */}
         {!selectedVillage && (
           <div className="space-y-4">
-            <h2 className="text-2xl font-semibold text-center">Available Destinations</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
               {filteredVillages.map((village) => (
                 <VillageCard
@@ -86,7 +85,6 @@ const Index = () => {
           <div className="space-y-6">
             <div className="text-center">
               <h2 className="text-2xl font-semibold mb-2">Buses to {selectedVillage}</h2>
-              <p className="text-muted-foreground">Select a bus number to view route details</p>
             </div>
             <div className="max-w-2xl mx-auto">
               <BusNumberGrid

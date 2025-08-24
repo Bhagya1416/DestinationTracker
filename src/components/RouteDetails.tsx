@@ -7,7 +7,8 @@ interface RouteDetailsProps {
     destination: string;
     stops: string[];
     duration: string;
-    frequency: string;
+    eveningTime: string;
+    googleLocation: string;
   };
 }
 
@@ -17,7 +18,7 @@ export const RouteDetails = ({ busNumber, route }: RouteDetailsProps) => {
       <CardHeader className="pb-4">
         <CardTitle className="flex items-center gap-2">
           <Route className="h-5 w-5 text-transport-blue" />
-          Bus {busNumber} Route Details
+          Bus {busNumber}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -35,8 +36,16 @@ export const RouteDetails = ({ busNumber, route }: RouteDetailsProps) => {
         
         <div className="flex items-center gap-2">
           <Clock className="h-4 w-4 text-transport-green" />
-          <span className="font-medium">Frequency:</span>
-          <span>{route.frequency}</span>
+          <span className="font-medium">Evening bus starts at:</span>
+          <span>{route.eveningTime}</span>
+        </div>
+        
+        <div className="flex items-center gap-2">
+          <MapPin className="h-4 w-4 text-transport-green" />
+          <span className="font-medium">Google Location:</span>
+          <a href={route.googleLocation} target="_blank" rel="noopener noreferrer" className="text-transport-blue hover:underline">
+            View on Google Maps
+          </a>
         </div>
         
         <div>
