@@ -50,19 +50,21 @@ const Index = () => {
       </header>
 
       <main className="container mx-auto px-4 py-8 space-y-8">
-        {/* Search Section */}
-        <div className="max-w-md mx-auto">
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <Input
-              type="text"
-              placeholder="Search village names..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="pl-10 h-12 text-base rounded-xl border-2 focus:border-transport-blue transition-colors"
-            />
+        {/* Search Section - Only show on home page */}
+        {!selectedVillage && (
+          <div className="max-w-md mx-auto">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+              <Input
+                type="text"
+                placeholder="Search village names..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="pl-10 h-12 text-base rounded-xl border-2 focus:border-transport-blue transition-colors"
+              />
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Villages Grid */}
         {!selectedVillage && (
