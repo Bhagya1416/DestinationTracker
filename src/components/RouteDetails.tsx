@@ -36,17 +36,16 @@ export const RouteDetails = ({ busNumber, route }: RouteDetailsProps) => {
         
         <div className="flex items-center gap-2">
           <Clock className="h-4 w-4 text-transport-green" />
-          <span className="font-medium">Evening timing:</span>
+          <span className="font-medium">Evening bus starts at:</span>
           <span>{route.eveningTime}</span>
         </div>
         
         <div className="flex items-center gap-2">
           <MapPin className="h-4 w-4 text-transport-green" />
-          <span className="font-medium">
-            <a href={route.googleLocation} target="_blank" rel="noopener noreferrer" className="text-transport-blue hover:underline">
-              Google Location
-            </a>
-          </span>
+          <span className="font-medium">Google Location:</span>
+          <a href={route.googleLocation} target="_blank" rel="noopener noreferrer" className="text-transport-blue hover:underline">
+            View on Google Maps
+          </a>
         </div>
         
         <div>
