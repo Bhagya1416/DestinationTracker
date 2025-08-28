@@ -1,10 +1,11 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Search, Bus, Navigation } from "lucide-react";
 import { VillageCard } from "@/components/VillageCard";
 import { BusNumberGrid } from "@/components/BusNumberGrid";
 import { RouteDetails } from "@/components/RouteDetails";
 import { villagesData } from "@/data/busData";
+import { App } from '@capacitor/app';
 
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -29,6 +30,34 @@ const Index = () => {
   const handleBusSelect = (busNumber: string) => {
     setSelectedBus(busNumber);
   };
+
+  const handleBackButtonPress = () => {
+    if (selectedBus) {
+      // If we're viewing bus details, go back to bus list
+      setSelectedBus(null);
+    } else if (selectedVillage) {
+      // If we're viewing village buses, go back to village list
+      setSelectedVillage(null);
+    }
+    // If we're at the main page, let the default behavior handle it
+  };
+
+  useEffect(() => {
+    const setupBackButtonHandler = async () => {
+      try {
+        await App.addListener('backButton', handleBackButtonPress);
+      } catch (error) {
+        // Capacitor not available (web environment)
+        console.log('Capacitor App plugin not available');
+      }
+    };
+
+    setupBackButtonHandler();
+
+    return () => {
+      App.removeAllListeners();
+    };
+  }, [selectedVillage, selectedBus]);
 
   return (
     <div className="min-h-screen bg-background">
