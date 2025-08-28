@@ -44,7 +44,7 @@ const Index = () => {
                 DestinationTracker
               </h1>
             </div>
-            <p className="text-lg text-muted-foreground">Track your route, Reach your destination</p>
+            <p className="text-lg text-muted-foreground">Track your route, Reach destination</p>
           </div>
         </div>
       </header>
