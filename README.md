@@ -1,73 +1,34 @@
-# Welcome to your Lovable project
+#DestinationTracker
+Destination Tracker is a modern web application created for tracking and managing destinations efficiently. The project leverages powerful front-end and UI frameworks to deliver an intuitive user experience and robust performance.
 
-## Project info
 
-**URL**: https://lovable.dev/projects/52d92321-c225-406f-9078-2c20300f84c6
+Technologies Used in the Project
+1. HTML & CSS: Provide the basic structure and styling for the web application, ensuring a responsive and visually appealing design.
+2. React: Used as the main JavaScript library to build reusable UI components and manage the user interface dynamically with its efficient virtual DOM.
+3. TypeScript: Adds strong typing to JavaScript, improving code quality, readability, and maintainability by catching errors during development.
+4. Vite: A modern build tool and development server that offers lightning-fast hot module replacement (HMR) for instant feedback during coding and optimized production builds.
 
-## How can I edit this code?
+Features:
+->Track, manage, and organize destinations.
+->Responsive design powered by Tailwind CSS.
+->Modular component structure with React and shadcn-ui.
+->Type-Safe logic and UI built with TypeScript.
 
-There are several ways of editing your application.
+Getting Started
+To get a local copy up and running follow these steps:
 
-**Use Lovable**
+Clone the repository.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/52d92321-c225-406f-9078-2c20300f84c6) and start prompting.
+Install dependencies:
+npm install
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Run the application:
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+The app is launched in development mode powered by Vite.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Deployment
+This project is deployed on Vercel, ensuring fast global performance and seamless CI/CD integrations.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/52d92321-c225-406f-9078-2c20300f84c6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
