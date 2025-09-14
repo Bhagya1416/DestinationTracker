@@ -189,5 +189,269 @@ export const villagesData: VillageData[] = [
         "googleLocation": "https://www.google.com/maps/dir/Surampalem/Anaparthi"
       }
     }
+  },
+  {
+    "name": "Gollaprolu",
+    "buses": {
+      "410": {
+        "destination": "Gollaprolu",
+        "stops": ["College Gate", "Canal Road", "Bypass", "Market", "Gollaprolu"],
+        "duration": "50 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Gollaprolu"
+      }
+    }
+  },
+  {
+    "name": "Yeleswaram",
+    "buses": {
+      "420": {
+        "destination": "Yeleswaram",
+        "stops": ["College Gate", "NH Road", "Village Circle", "Bus Stand", "Yeleswaram"],
+        "duration": "55 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Yeleswaram"
+      }
+    }
+  },
+  {
+    "name": "Pithapuram",
+    "buses": {
+      "430": {
+        "destination": "Pithapuram",
+        "stops": ["College Gate", "Railway Station", "Temple Road", "Main Market", "Pithapuram"],
+        "duration": "45 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Pithapuram"
+      }
+    }
+  },
+  {
+    "name": "Kattipudi",
+    "buses": {
+      "435": {
+        "destination": "Kattipudi",
+        "stops": ["College Gate", "Highway Point", "Tea Junction", "Kattipudi"],
+        "duration": "35 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Kattipudi"
+      }
+    }
+  },
+  {
+    "name": "Prathipadu",
+    "buses": {
+      "445": {
+        "destination": "Prathipadu",
+        "stops": ["College Gate", "Crossroad", "Market Road", "Prathipadu"],
+        "duration": "30 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Prathipadu"
+      }
+    }
+  },
+  {
+    "name": "Kirlampudi",
+    "buses": {
+      "455": {
+        "destination": "Kirlampudi",
+        "stops": ["College Gate", "Rice Mill Road", "Temple", "Kirlampudi"],
+        "duration": "40 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Kirlampudi"
+      }
+    }
+  },
+  {
+    "name": "Jaggampeta",
+    "buses": {
+      "465": {
+        "destination": "Jaggampeta",
+        "stops": ["College Gate", "NH Junction", "Town Center", "Jaggampeta"],
+        "duration": "25 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Jaggampeta"
+      }
+    }
+  },
+  {
+    "name": "Ramachandrapuram",
+    "buses": {
+      "475": {
+        "destination": "Ramachandrapuram",
+        "stops": ["College Gate", "NH Side", "Town Entrance", "Bus Stand", "Ramachandrapuram"],
+        "duration": "1 hour 15 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Ramachandrapuram"
+      }
+    }
+  },
+  {
+    "name": "Dowleswaram",
+    "buses": {
+      "480": {
+        "destination": "Dowleswaram",
+        "stops": ["College Gate", "NH Bridge", "Canal Road", "Dowleswaram"],
+        "duration": "1 hour 10 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Dowleswaram"
+      }
+    }
+  },
+  {
+    "name": "Gokavaram",
+    "buses": {
+      "485": {
+        "destination": "Gokavaram",
+        "stops": ["College Gate", "Rural Road", "Bus Stop", "Gokavaram"],
+        "duration": "35 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Gokavaram"
+      }
+    }
+  },
+  {
+    "name": "Kovvur",
+    "buses": {
+      "490": {
+        "destination": "Kovvur",
+        "stops": ["College Gate", "Godavari Bridge", "Town Market", "Kovvur"],
+        "duration": "1 hour 30 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Kovvur"
+      }
+    }
+  },
+  {
+    "name": "Biccavolu",
+    "buses": {
+      "495": {
+        "destination": "Biccavolu",
+        "stops": ["College Gate", "NH Road", "Temple Area", "Biccavolu"],
+        "duration": "20 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Biccavolu"
+      }
+    }
+  },
+  {
+    "name": "Nidadavolu",
+    "buses": {
+      "500": {
+        "destination": "Nidadavolu",
+        "stops": ["College Gate", "NH Road", "Railway Station", "Town Market", "Nidadavolu"],
+        "duration": "1 hour 25 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Nidadavolu"
+      }
+    }
+  },
+  {
+    "name": "Devarapalli",
+    "buses": {
+      "505": {
+        "destination": "Devarapalli",
+        "stops": ["College Gate", "Bridge Point", "Temple Stop", "Market Road", "Devarapalli"],
+        "duration": "30 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Devarapalli"
+      }
+    }
+  },
+  {
+    "name": "Razole",
+    "buses": {
+      "510": {
+        "destination": "Razole",
+        "stops": ["College Gate", "NH Road", "Town Junction", "Bus Stand", "Razole"],
+        "duration": "1 hour 50 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Razole"
+      }
+    }
+  },
+  {
+    "name": "Mummidivaram",
+    "buses": {
+      "520": {
+        "destination": "Mummidivaram",
+        "stops": ["College Gate", "Canal Road", "Village Center", "Bus Stand", "Mummidivaram"],
+        "duration": "1 hour 40 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Mummidivaram"
+      }
+    }
+  },
+  {
+    "name": "Pithapuram East",
+    "buses": {
+      "525": {
+        "destination": "Pithapuram East",
+        "stops": ["College Gate", "Railway Crossing", "Temple Road", "Market Area", "Pithapuram East"],
+        "duration": "50 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Pithapuram+East"
+      }
+    }
+  },
+  {
+    "name": "Thondangi",
+    "buses": {
+      "530": {
+        "destination": "Thondangi",
+        "stops": ["College Gate", "Village Junction", "Main Road", "Town Center", "Thondangi"],
+        "duration": "40 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Thondangi"
+      }
+    }
+  },
+  {
+    "name": "Seethanagaram",
+    "buses": {
+      "535": {
+        "destination": "Seethanagaram",
+        "stops": ["College Gate", "NH Road", "Bridge Junction", "Bus Stop", "Seethanagaram"],
+        "duration": "1 hour 10 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Seethanagaram"
+      }
+    }
+  },
+  {
+    "name": "Alamuru",
+    "buses": {
+      "540": {
+        "destination": "Alamuru",
+        "stops": ["College Gate", "Temple Road", "Market Junction", "Alamuru"],
+        "duration": "35 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Alamuru"
+      }
+    }
+  },
+  {
+    "name": "Jaggampet",
+    "buses": {
+      "545": {
+        "destination": "Jaggampet",
+        "stops": ["College Gate", "Village Road", "Bus Stand", "Market", "Jaggampet"],
+        "duration": "45 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Jaggampet"
+      }
+    }
+  },
+  {
+    "name": "Gopalapuram",
+    "buses": {
+      "550": {
+        "destination": "Gopalapuram",
+        "stops": ["College Gate", "Canal Side", "Temple Stop", "Gopalapuram"],
+        "duration": "50 minutes",
+        "eveningTime": "4:30 PM",
+        "googleLocation": "https://www.google.com/maps/dir/Surampalem/Gopalapuram"
+      }
+    }
   }
 ]
